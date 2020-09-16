@@ -1,0 +1,233 @@
+  @font-face {
+      src: url('../fonts/helveticaneue/HelveticaNeue Medium.ttf');
+      font-family: Helvetica Neue;
+  }
+
+  .fs-52 {
+      font-size: 52px;
+      line-height: 1.21;
+  }
+
+  .fs-50 {
+      font-size: 50px;
+      line-height: 1.2;
+  }
+
+  .fs-44 {
+      font-size: 44px;
+      line-height: 1.18;
+  }
+
+  .fs-39 {
+    font-size: 39px;
+    line-height: 1.18;
+}
+  .fs-36 {
+      font-size: 36px;
+      line-height: 1.22;
+  }
+
+  .fs-31 {
+      font-size: 31px;
+      line-height: 1.23;
+  }
+
+  .fs-30 {
+      font-size: 30px;
+      line-height: 1.2;
+  }
+
+  .fs-24 {
+      font-size: 24px;
+      line-height: 1.21;
+  }
+
+  .fs-21 {
+      font-size: 21px;
+      line-height: 1.19;
+  }
+
+  .fs-20 {
+      font-size: 20px;
+      line-height: 1.2;
+  }
+
+  .fs-17 {
+      font-size: 17px;
+      line-height: 1.18;
+  }
+
+  .fs-16 {
+      font-size: 16px;
+      line-height: 1.18;
+  }
+
+  .fs-12 {
+      font-size: 12px;
+      line-height: 1.25;
+  }
+
+  .fw-5 {
+      font-weight: 500 !important;
+  }
+
+  .fw-3 {
+      font-weight: 300 !important;
+  }
+
+  .fw-1 {
+      font-weight: 100 !important;
+  }
+
+  .ff-h {
+      font-family: Helvetica Neue;
+  }
+
+  .fc-db {
+      color: #1f3251;
+  }
+
+  .fc-gn {
+      color: #9bc757;
+  }
+
+  .o-0 {
+      opacity: 0;
+  }
+
+  #home {
+      height: 70vh;
+      background-image: url('../../assets/img/7860-1@2x.png');
+      background-repeat: no-repeat;
+      background-position: bottom right;
+      display: flex;
+      align-items: center;
+      /* background-size: contain; */
+  }
+
+  .thecards {
+      border-radius: 5px;
+      box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.16);
+      background-color: #ffffff;
+  }
+
+  .service {
+      height: 60px;
+      border-radius: 5px;
+      border: solid 1px #ffffff;
+      background-color: #1f3251;
+      padding-left: 40px;
+      padding-right: 40px;
+      display: flex;
+      align-items: center;
+  }
+
+  .bluecard {
+      border-radius: 5px;
+      box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.16);
+      background-color: #1f3251;
+  }
+
+  .bottom {
+      background: rgba(232, 232, 232, 0.17);
+  }
+
+  input.form-control.forms {
+      border-radius: 20px;
+      height: 65px;
+      border: solid 2px rgba(31, 50, 81, 0.09);
+      background-color: #ffffff;
+      font-family: Helvetica Neue;
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 1.23;
+      transition: .3s ease-in-out;
+  }
+
+  input.form-control.forms::placeholder {
+      color: #c3c1c1;
+  }
+
+  input.form-control.forms:focus {
+      box-shadow: none;
+      border: solid 2px rgba(31, 50, 81, 0.99);
+  }
+
+  .btn-blue {
+      border-radius: 20px;
+      background-color: #1f3251;
+      height: 65px;
+      font-family: Helvetica Neue;
+      font-size: 21px;
+      font-weight: 300;
+      color: #ffffff;
+      line-height: 1.19;
+  }
+
+  @media(max-width: 1300px) {
+      #home {
+          background-size: contain;
+      }
+  }
+
+  @media(max-width: 1200px) {
+      .btn-blue {
+          font-size: 16px;
+          height: 45px;
+      }
+
+      .fs-52 {
+          font-size: 35px;
+          line-height: 1.21;
+      }
+
+      .fs-50 {
+          font-size: 28px;
+          line-height: 1.2;
+      }
+
+      .fs-44 {
+          font-size: 26px;
+          line-height: 1.18;
+      }
+
+      .fs-36 {
+          font-size: 24px;
+          line-height: 1.22;
+      }
+
+      .fs-31 {
+          font-size: 22px;
+          line-height: 1.23;
+      }
+
+      .fs-30 {
+          font-size: 20px;
+          line-height: 1.2;
+      }
+
+      .fs-24 {
+          font-size: 18px;
+          line-height: 1.21;
+      }
+
+      .fs-21 {
+          font-size: 16px;
+          line-height: 1.19;
+      }
+
+      .fs-20 {
+          font-size: 15px;
+          line-height: 1.2;
+      }
+
+      .fs-17 {
+          font-size: 14px;
+          line-height: 1.18;
+      }
+
+      .fs-16 {
+          font-size: 12px;
+          line-height: 1.18;
+      }
+  }

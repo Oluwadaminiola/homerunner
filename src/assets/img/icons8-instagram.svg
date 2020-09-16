@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35.639" height="35.638" viewBox="0 0 35.639 35.638">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#1f3251;stroke-miterlimit:10}
+        </style>
+    </defs>
+    <g id="icons8-instagram" transform="translate(.5 .5)">
+        <path id="Path_29" d="M13.9 38.639h14.842a9.9 9.9 0 0 0 9.9-9.9V13.9a9.9 9.9 0 0 0-9.9-9.9H13.9A9.9 9.9 0 0 0 4 13.9v14.842a9.9 9.9 0 0 0 9.9 9.897z" class="cls-1" transform="translate(-4 -4)"/>
+        <path id="Path_30" d="M23.247 15a8.247 8.247 0 1 0 8.247 8.247A8.247 8.247 0 0 0 23.247 15z" class="cls-1" transform="translate(-5.928 -5.928)"/>
+        <path id="Path_31" d="M36.649 11a1.649 1.649 0 1 0 1.651 1.649A1.649 1.649 0 0 0 36.649 11z" transform="translate(-9.433 -5.227)"/>
+    </g>
+</svg>
