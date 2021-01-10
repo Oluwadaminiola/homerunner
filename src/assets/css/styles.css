@@ -1,233 +1,730 @@
-  @font-face {
-      src: url('../fonts/helveticaneue/HelveticaNeue Medium.ttf');
-      font-family: Helvetica Neue;
-  }
+@font-face {
+    src: url('../fonts/helveticaneue/HelveticaNeue Medium.ttf');
+    font-family: Helvetica Neue;
+}
 
-  .fs-52 {
-      font-size: 52px;
-      line-height: 1.21;
-  }
+@font-face {
+    src: url('../fonts/helveticaneue/HelveticaNeue Thin.ttf');
+    font-family: Helvetica Neue reg;
+}
 
-  .fs-50 {
-      font-size: 50px;
-      line-height: 1.2;
-  }
 
-  .fs-44 {
-      font-size: 44px;
-      line-height: 1.18;
-  }
 
-  .fs-39 {
+.fs-52 {
+    font-size: 52px;
+    line-height: 1.21;
+}
+
+.fs-50 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.fs-44 {
+    font-size: 44px;
+    line-height: 1.18;
+}
+
+.fs-41 {
+    font-size: 41px;
+    line-height: 1.18;
+}
+
+.fs-39 {
     font-size: 39px;
     line-height: 1.18;
 }
-  .fs-36 {
-      font-size: 36px;
-      line-height: 1.22;
-  }
 
-  .fs-31 {
-      font-size: 31px;
-      line-height: 1.23;
-  }
+.fs-36 {
+    font-size: 36px;
+    line-height: 1.22;
+}
 
-  .fs-30 {
-      font-size: 30px;
-      line-height: 1.2;
-  }
+.fs-35 {
+    font-size: 35px;
+    line-height: 1.22;
+}
 
-  .fs-24 {
-      font-size: 24px;
-      line-height: 1.21;
-  }
+.fs-31 {
+    font-size: 31px;
+    line-height: 1.23;
+}
 
-  .fs-21 {
-      font-size: 21px;
-      line-height: 1.19;
-  }
+.fs-30 {
+    font-size: 30px;
+    line-height: 1.2;
+}
 
-  .fs-20 {
-      font-size: 20px;
-      line-height: 1.2;
-  }
+.fs-29 {
+    font-size: 29px;
+    line-height: 1.21;
+}
 
-  .fs-17 {
-      font-size: 17px;
-      line-height: 1.18;
-  }
+.fs-25 {
+    font-size: 25px;
+    line-height: 1.4;
+}
 
-  .fs-16 {
-      font-size: 16px;
-      line-height: 1.18;
-  }
+.fs-24 {
+    font-size: 24px;
+    line-height: 1.21;
+}
 
-  .fs-12 {
-      font-size: 12px;
-      line-height: 1.25;
-  }
+.fs-21 {
+    font-size: 21px;
+    line-height: 1.5;
+}
 
-  .fw-5 {
-      font-weight: 500 !important;
-  }
+.fs-20 {
+    font-size: 20px;
+    line-height: 1.5;
+}
 
-  .fw-3 {
-      font-weight: 300 !important;
-  }
+.fs-17 {
+    font-size: 17px;
+    line-height: 1.18;
+}
 
-  .fw-1 {
-      font-weight: 100 !important;
-  }
+.fs-16 {
+    font-size: 16px;
+    line-height: 1.18;
+}
 
-  .ff-h {
-      font-family: Helvetica Neue;
-  }
+.fs-15 {
+    font-size: 15px;
+    line-height: 1.18;
+}
 
-  .fc-db {
-      color: #1f3251;
-  }
+.fs-12 {
+    font-size: 12px;
+    line-height: 1.25;
+}
 
-  .fc-gn {
-      color: #9bc757;
-  }
+.fw-7 {
+    font-weight: 700 !important;
+}
 
-  .o-0 {
-      opacity: 0;
-  }
+.fw-6 {
+    font-weight: 600 !important;
+}
 
-  #home {
-      height: 70vh;
-      background-image: url('../../assets/img/7860-1@2x.png');
-      background-repeat: no-repeat;
-      background-position: bottom right;
-      display: flex;
-      align-items: center;
-      /* background-size: contain; */
-  }
+.fw-5 {
+    font-weight: 500 !important;
+}
 
-  .thecards {
-      border-radius: 5px;
-      box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.16);
-      background-color: #ffffff;
-  }
+.fw-3 {
+    font-weight: 300 !important;
+}
 
-  .service {
-      height: 60px;
-      border-radius: 5px;
-      border: solid 1px #ffffff;
-      background-color: #1f3251;
-      padding-left: 40px;
-      padding-right: 40px;
-      display: flex;
-      align-items: center;
-  }
+.fw-2 {
+    font-weight: 200 !important;
+}
 
-  .bluecard {
-      border-radius: 5px;
-      box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.16);
-      background-color: #1f3251;
-  }
+.fw-1 {
+    font-weight: 100 !important;
+}
 
-  .bottom {
-      background: rgba(232, 232, 232, 0.17);
-  }
+.ff-h {
+    font-family: Helvetica Neue;
+}
 
-  input.form-control.forms {
-      border-radius: 20px;
-      height: 65px;
-      border: solid 2px rgba(31, 50, 81, 0.09);
-      background-color: #ffffff;
-      font-family: Helvetica Neue;
-      font-size: 26px;
-      font-weight: 300;
-      line-height: 1.23;
-      transition: .3s ease-in-out;
-  }
+.ff-hr {
+    font-family: Helvetica Neue reg;
+}
 
-  input.form-control.forms::placeholder {
-      color: #c3c1c1;
-  }
+.ff-m {
+    font-family: 'Montserrat', sans-serif;
+}
 
-  input.form-control.forms:focus {
-      box-shadow: none;
-      border: solid 2px rgba(31, 50, 81, 0.99);
-  }
+.fc-db {
+    color: #1f3251;
+}
 
-  .btn-blue {
-      border-radius: 20px;
-      background-color: #1f3251;
-      height: 65px;
-      font-family: Helvetica Neue;
-      font-size: 21px;
-      font-weight: 300;
-      color: #ffffff;
-      line-height: 1.19;
-  }
+.fc-gn {
+    color: #9bc757;
+}
 
-  @media(max-width: 1300px) {
-      #home {
-          background-size: contain;
-      }
-  }
+.fc-gy {
+    color: #3D3D3D;
+}
 
-  @media(max-width: 1200px) {
-      .btn-blue {
-          font-size: 16px;
-          height: 45px;
-      }
+.o-0 {
+    opacity: 0;
+}
 
-      .fs-52 {
-          font-size: 35px;
-          line-height: 1.21;
-      }
+.manager{
+    height: 50vh;
+    width: 100%;
+    background: url("../../assets/img/Group 3372.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#grey {
+    background: rgba(232, 232, 232, 0.15);
+}
 
-      .fs-50 {
-          font-size: 28px;
-          line-height: 1.2;
-      }
+.navbar-brand img {
+    height: 25px;
+}
 
-      .fs-44 {
-          font-size: 26px;
-          line-height: 1.18;
-      }
+.card {
+    background: #FFFFFF;
+    box-shadow: 1px 15px 15px #00000029;
+    border: 0.5px solid #707070;
+    border-radius: 15px;
+    padding: .7rem;
+}
 
-      .fs-36 {
-          font-size: 24px;
-          line-height: 1.22;
-      }
+.card .title {
+    font-family: Montserrat;
+    font-size: 22px;
+    color: #1F3251;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+}
 
-      .fs-31 {
-          font-size: 22px;
-          line-height: 1.23;
-      }
+.card .text {
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #1F3251;
+    transition: .3s ease-in-out;
+}
 
-      .fs-30 {
-          font-size: 20px;
-          line-height: 1.2;
-      }
+.card .price {
+    font-family: Montserrat;
+    font-size: 25px;
+    color: #1F3251;
+    font-weight: 700;
+    transition: .3s ease-in-out;
+}
 
-      .fs-24 {
-          font-size: 18px;
-          line-height: 1.21;
-      }
+.card:hover .title {
+    font-size: 25px;
+}
 
-      .fs-21 {
-          font-size: 16px;
-          line-height: 1.19;
-      }
+.card:hover .text {
+    font-size: 25px;
+}
 
-      .fs-20 {
-          font-size: 15px;
-          line-height: 1.2;
-      }
+.card:hover .price {
+    font-size: 29px;
+}
 
-      .fs-17 {
-          font-size: 14px;
-          line-height: 1.18;
-      }
+#marble {
+    background-image: url('../../assets/img/marble.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-      .fs-16 {
-          font-size: 12px;
-          line-height: 1.18;
-      }
-  }
+#marble2 {
+    background-image: url('../../assets/img/marble2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+}
+
+.guarantee .d-flex img {
+    height: 80px;
+}
+
+#home {
+    height: 58vh;
+    background-image: url('../../assets/img/gome.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 55%;
+    display: flex;
+    align-items: center;
+    /* background-size: contain; */
+}
+
+.thecards {
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.service {
+    height: 60px;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    background-color: #1f3251;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.bluecard {
+    border-radius: 5px;
+    width: 32vw;
+    margin: 1vw;
+    height: 315px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.16);
+    background-color: #1f3251;
+}
+
+.bottom {
+    background: rgba(232, 232, 232, 0.17);
+}
+
+.form-control.forms {
+    border-radius: 1px;
+    background: #FFFFFF;
+    border: 1px solid #9BC757;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 300;
+    line-height: 1.23;
+    transition: .3s ease-in-out;
+}
+
+input.form-control.forms {
+    border-radius: 1px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #9BC757;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 300;
+    line-height: 1.23;
+    transition: .3s ease-in-out;
+}
+
+input.form-control.forms::placeholder {
+    color: #D4D4D4;
+}
+
+.form-control.forms:focus {
+    box-shadow: none;
+    border: solid 2px rgba(31, 50, 81, 0.99);
+}
+
+.scrolling-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-cards::-webkit-scrollbar {
+    display: none;
+}
+
+.scrolling-cards .bluecard {
+    min-width: 86vw;
+}
+
+
+
+.btn-blue {
+    border-radius: 5px;
+    background-color: #1f3251;
+    height: 65px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 300;
+    color: #ffffff;
+    line-height: 1.19;
+}
+
+.btn-blue:hover {
+    color: #fff;
+}
+
+.btn-sm-blue {
+    border: 1px solid #1f3251;
+    height: 50px;
+    color: #1f3251;
+    background: none;
+}
+
+.btn-sm-blue:hover {
+    color: #1f3251;
+}
+
+.customer-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background-color: #e8e8e8;
+    padding: 0;
+}
+
+.customer-image.one {
+    background: url("../img/test (2).jpeg");
+    background-size: contain;
+}
+
+.customer-image.two {
+    background: url("../img/test (1).jpeg");
+    background-size: contain;
+}
+
+.customer-image.three {
+    background: url("../img/test (3).jpeg");
+    background-size: contain;
+}
+
+#carouselExampleIndicators {
+    margin-top: 130px;
+}
+
+.carousel-indicators {
+    margin-top: -150px;
+    bottom: unset;
+}
+
+.carousel-indicators li {
+    width: unset;
+    height: unset;
+    background-color: unset;
+    margin-right: 6vw;
+    margin-left: 6vw;
+}
+
+@keyframes slider {
+
+    0%,
+    25%,
+    100% {
+        left: 0
+    }
+
+    30%,
+    55% {
+        left: -100%
+    }
+
+    60%,
+    85% {
+        left: -200%
+    }
+}
+
+@media(max-width: 1300px) {
+    .bluecard {
+        border-radius: 5px;
+        width: 32vw;
+        margin: 1vw;
+        height: 340px;
+    }
+    #home {
+        background-size: 60%;
+    }
+
+    .service {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .btn-blue {
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .fs-52 {
+        font-size: 35px;
+        line-height: 1.21;
+    }
+
+    .fs-50 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .fs-44 {
+        font-size: 26px;
+        line-height: 1.18;
+    }
+
+    .fs-36,
+    .fs-35 {
+        font-size: 24px;
+        line-height: 1.22;
+    }
+
+    .fs-31 {
+        font-size: 22px;
+        line-height: 1.23;
+    }
+
+    .fs-30 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .fs-29 {
+        font-size: 14px;
+        line-height: 1.21;
+    }
+
+    .fs-24,
+    .fs-25 {
+        font-size: 18px;
+        line-height: 1.21;
+    }
+
+    .fs-21 {
+        font-size: 16px;
+        line-height: 1.19;
+    }
+
+    .fs-20 {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    .fs-17 {
+        font-size: 14px;
+        line-height: 1.18;
+    }
+
+    .fs-16 {
+        font-size: 12px;
+        line-height: 1.18;
+    }
+
+    .card .title {
+        font-size: 20px;
+    }
+
+    .card .text {
+        font-size: 18px;
+    }
+
+    .card .price {
+        font-size: 23px;
+    }
+
+    .card:hover .title {
+        font-size: 23px;
+    }
+
+    .card:hover .text {
+        font-size: 20px;
+    }
+
+    .card:hover .price {
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width: 1030px) {
+    .navbar-brand img {
+        height: 20px;
+    }
+
+    #home {
+        height: 35vh;
+        background-size: 60%;
+    }
+
+    .service {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 770px) {
+    .bluecard {
+        border-radius: 5px;
+        width: unset;
+        margin: unset;
+        height: unset;
+        box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.16);
+        background-color: #1f3251;
+    }
+    
+    .guarantee .d-flex img {
+        height: 50px;
+    }
+
+    .customer-image {
+        height: 80px;
+        width: 80px;
+    }
+
+    .customer-image img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #home {
+        height: 65vh;
+        display: flex;
+        align-items: center;
+        /* align-items: unset; */
+        background-size: contain;
+    }
+
+    .service {
+        height: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .large {
+        display: none;
+    }
+
+    .small {
+        display: block;
+    }
+
+    .card .title {
+        font-size: 18px;
+    }
+
+    .card .text {
+        font-size: 16px;
+    }
+
+    .card .price {
+        font-size: 20px;
+    }
+
+    .card:hover .title {
+        font-size: 20px;
+    }
+
+    .card:hover .text {
+        font-size: 18px;
+    }
+
+    .card:hover .price {
+        font-size: 22px;
+    }
+
+
+    .fs-52 {
+        font-size: 30px;
+        line-height: 1.21;
+    }
+
+    .fs-50 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .fs-44 {
+        font-size: 18px;
+        line-height: 1.18;
+    }
+
+    .fs-39 {
+        font-size: 24px;
+        line-height: 1.18;
+    }
+
+    .fs-36,
+    .fs-35 {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+
+    .fs-31 {
+        font-size: 20px;
+        line-height: 1.23;
+    }
+
+    .fs-30 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .fs-29 {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .fs-25 {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .fs-24 {
+        font-size: 12px;
+        line-height: 1.21;
+    }
+
+    .fs-21 {
+        font-size: 12px;
+        line-height: 1.19;
+    }
+
+    .fs-20 {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+
+    .fs-17 {
+        font-size: 12px;
+        line-height: 1.18;
+    }
+
+    .fs-16 {
+        font-size: 12px;
+        line-height: 1.18;
+    }
+
+    .fs-15 {
+        font-size: 13px;
+        line-height: 1.18;
+    }
+    .fs-12 {
+        font-size: 12px;
+        line-height: 1.25;
+    }
+
+}
+
+@media(min-width: 770px) {
+    .large {
+        display: block;
+    }
+
+    .small {
+        display: none;
+    }
+    .card .title {
+        font-size: 16px;
+    }
+
+    .card .text {
+        font-size: 14px;
+    }
+
+    .card .price {
+        font-size: 18px;
+    }
+
+    .card:hover .title {
+        font-size: 18px;
+    }
+
+    .card:hover .text {
+        font-size: 16px;
+    }
+
+    .card:hover .price {
+        font-size: 20px;
+    }
+
+    
+}
+
+@media(max-width: 440px) {
+    .btn-blue {
+        height: 40px;
+        font-size: 13px;
+    }
+    #home{
+        height: 68vh;
+        display: flex;
+        align-items: center;
+    }
+}

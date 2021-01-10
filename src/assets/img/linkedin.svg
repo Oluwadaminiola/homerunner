@@ -1,0 +1,8 @@
+<svg id="Icon_" data-name="Icon " xmlns="http://www.w3.org/2000/svg" width="49.365" height="49.365" viewBox="0 0 49.365 49.365">
+  <rect id="Area" width="49.365" height="49.365" fill="#1f3251" opacity="0"/>
+  <g id="Icon" transform="translate(4.114 4.114)">
+    <path id="Path" d="M20.674,6.667A12.339,12.339,0,0,1,33.015,19.008v14.4H24.789v-14.4a4.113,4.113,0,1,0-8.227,0v14.4H8.333v-14.4A12.341,12.341,0,0,1,20.674,6.667Z" transform="translate(8.121 5.675)" fill="#1f3251"/>
+    <rect id="Rect" width="8.227" height="24.682" transform="translate(0 14.398)" fill="#1f3251"/>
+    <ellipse id="Path-2" data-name="Path" cx="4.114" cy="4.114" rx="4.114" ry="4.114" transform="translate(0 0)" fill="#1f3251"/>
+  </g>
+</svg>
